@@ -1,0 +1,39 @@
+
+ .spinner {
+    width: 50px;
+    height:50px;
+    border: 5px dotted rgb(255, 196, 0);
+    border-top: 5px solid #0000ff;
+    border-radius: 40%;
+    margin:20px; /*auto i think*/
+    animation: spin 1s linear infinite; /* Required */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.country-card {
+    background-color: rgb(71, 223, 223);
+    padding: 30px;
+    margin:20px;
+    border-radius: 5px;
+    text-align: center;
+    text-shadow: #3d72d3;
+
+}
+.border-grid {
+    display: grid; 
+    border: 5px solid rgb(230, 219, 78);
+    border-top: 5px solid #6deee3;
+    border-radius: 40%;
+}  
+
+.error{
+    color:rgb(12, 12, 12);
+    background-color: red ;
+}
+.hidden {
+    display: none;
+}
