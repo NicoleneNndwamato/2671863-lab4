@@ -70,7 +70,8 @@ async function searchCountry(countryName) {
 }
 
 // Event listeners
-document.getElementById('search-btn').addEventListener('click', () => {
+
+searchbutton.addEventListener('click', () => {
     const country = document.getElementById('country-input').value;
     searchCountry(country);
 });
