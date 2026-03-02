@@ -65,7 +65,7 @@ async function searchCountry(countryName) {
 
     } finally {
         // Hide loading spinner
-        spinner.classList.add("hidden");
+        spinner.classList.add(`hidden`);
     }
 }
 
